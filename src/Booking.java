@@ -62,6 +62,20 @@ import java.util.*;
             this.otherGuests = otherGuests;
         }
 
+        public Guest getGuest1() {
+            return guest1;
+        }
 
+        public void setGuest1(Guest guest1) {
+            this.guest1 = guest1;
+        }
+
+        public boolean isIstourist() {
+            return istourist;
+        }
+
+        public void setIstourist(boolean istourist) {
+            this.istourist = istourist;
+        }
     }
 
